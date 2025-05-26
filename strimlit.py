@@ -97,7 +97,7 @@ with st.form(key='prediction_form'):
                 user_input[col] = st.number_input(f"📉 {col}", value=0.0, step=0.1, format="%.1f")
             else:
                 user_input[col] = st.number_input(
-                "📊 Umur (contoh: 19 tahun)", value=0, step=1, format="%d"
+                "📊 Umur (contoh: 19 tahun)", value=0, step=1, format="%d"}
 
 
     submit_button = st.form_submit_button(label='🔍 Prediksi')
